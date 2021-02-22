@@ -1,0 +1,104 @@
+
+.main1 {
+	font-family: Raleway, sans-serif;
+	font-size: 1.6vw;
+	position: fixed;
+	display: flex;
+        //flex:1;
+	flex-direction: row;
+	//align-content: space-between;
+	//justify-content: space-between;
+	height: 100vh;
+	width: 100vw;
+}
+
+.mainMobile{
+	font-family: Raleway, sans-serif;
+	font-size: 1.6vw;
+	position: fixed;
+	display: flex;
+        //flex:1;
+	flex-direction: column;
+	//align-content: space-between;
+	//justify-content: space-between;
+	height: 100vh;
+	width: 100vw;
+
+}
+
+.head {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-image: linear-gradient(to right, #606B9B, #B191D4);
+	box-shadow: 0px 0vw 100px #888888;
+}
+
+.headMobile{
+	height: 75%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-image: linear-gradient(#606B9B, #B191D4);
+	box-shadow: 0px 0vw 100px #888888;
+
+}
+
+.welcome_msg1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 70px;
+	color: white;
+	font-weight: 900;
+}
+
+.welcome_msg1Mobile{
+	font-family: 'Raleway', sans-serif;
+	font-size: 45px;
+	color: white;
+	font-weight: 900;
+}
+
+.welcome_msg2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	padding-top: 3vw;
+	color:  #70C7A9;
+}
+
+
+.welcome_msg2Mobile{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	padding-top: 3vw;
+	color:  #70C7A9;
+}
+
+
+
+.footer {
+        flex:1;
+	display: flex;
+	justify-content: center;
+}
+
+.signIn{
+	width: 25vw;
+	height: 5vw;
+	align-self: center;
+}
+
+.signInMobile{
+	width: 55vw;
+	height: 12vw;
+	align-self: center;
+}
+

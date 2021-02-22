@@ -1,0 +1,164 @@
+
+main {
+	font-family: Raleway, sans-serif;
+	font-size: 1.6vw;
+	position: fixed;
+	display: flex;
+        flex:1;
+	flex-direction: column;
+	align-content: space-between;
+	justify-content: space-between;
+	height: 100vh;
+	width: 100vw;
+}
+
+.head {
+	display: flex;
+	//flex:1;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5vw;
+	//height: 25vh;
+
+	
+	
+}
+
+.pageTitle {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 50px;
+	color: #606B9B;
+}
+
+.pageTitleMobile {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	color: #606B9B;
+}
+
+
+.reviewButton {
+	width: 130px;
+	height: 50px;
+	font-size: 20px;
+	position: relative;
+	right: 3%;
+	
+	border-radius: 8px;
+	color: white;
+	background-color: #606B9B;
+}
+
+.reviewButtonMobile {
+	width: 80px;
+	height: 30px;
+	font-size: 10px;
+	position: relative;
+	right: 3%;
+	
+	border-radius: 8px;
+	color: white;
+	background-color: #606B9B;
+}
+
+
+.body {
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.cards {
+	display: flex;
+	//flex:1;
+	flex-direction: row;
+	align-items: center;
+	
+}
+
+.cardsMobile {
+	display: flex;
+	//flex:1;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.card {
+	margin: 2vw;
+	width: 45vw;
+	height: 30vh;
+	border: 2px solid #9A9A9A;
+	text-align: center;
+	border-radius: 0px;
+	font-size: 30px;
+}
+
+.cardMobile {
+	margin: 2vw;
+	width: 90vw;
+	height: 30vh;
+	border: 2px solid #9A9A9A;
+	text-align: center;
+	border-radius: 0px;
+	font-size: 30px;
+}
+
+
+.saveButton {
+	position: relative;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	left: 80vw;
+	top: 3vh;
+	border-radius: 8px;
+	color: white;
+	background-color: #70C7A9;
+}
+
+.saveButtonMobile {
+	position: relative;
+	width: 70px;
+	height: 35px;
+	font-size: 20px;
+	left: 70vw;
+	top: 3px;
+	border-radius: 8px;
+	color: white;
+	//font-size: 2.5vw;
+	background-color: #70C7A9;
+	justify-content: flex-end;
+}
+
+.footer {
+        flex:1;
+	display: flex;
+	justify-content: center;
+	height: 2vw;
+	min-height: 50px;
+	max-height: 70px;
+	background-color: #606B9B;
+	color: white;
+}
+
+#user {
+	color: white;
+	border: none;
+	background-color: #606B9B;
+	font-size: 20px;
+	align-self: center;
+}
+
+#logout {
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 10px;
+	position: relative;
+	right: 80px;
+	top: 50px;
+}
